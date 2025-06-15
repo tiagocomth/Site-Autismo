@@ -1,4 +1,3 @@
-
 /* Reset básico */
 * {
   margin: 0;
@@ -45,6 +44,14 @@ body {
 .logo a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
 }
 
 .logo a:hover {
@@ -101,9 +108,17 @@ body {
 
 .highlight-box {
   background-color: #fef3c7;
-  border-left: 4px solid #f59e0b;
   padding: 24px;
   margin-bottom: 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.highlight-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #fef3c7;
 }
 
 .highlight-title {
@@ -131,28 +146,51 @@ body {
 
 .date-highlight {
   background-color: #fecaca;
-  border-left: 4px solid #ef4444;
   padding: 24px;
   margin-bottom: 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.date-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #fecaca;
 }
 
 .info-highlight {
   background-color: #d1fae5;
-  border-left: 4px solid #10b981;
   padding: 24px;
   margin-bottom: 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.info-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #d1fae5;
 }
 
 .testimonials-highlight {
   background-color: #e9d5ff;
-  border-left: 4px solid #8b5cf6;
   padding: 24px;
   margin-bottom: 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonials-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #e9d5ff;
 }
 
 .contacts-highlight {
   background-color: #cffafe;
-  border-left: 4px solid #06b6d4;
   padding: 24px;
   margin-bottom: 32px;
 }
@@ -185,6 +223,14 @@ body {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .feature-title {
@@ -231,6 +277,17 @@ body {
 
 .explore-item {
   text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.explore-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .explore-item-title {
@@ -251,9 +308,17 @@ body {
 
 .content-card {
   background-color: white;
-  padding: 32px;
+  padding: 24px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .content-text {
@@ -278,6 +343,14 @@ body {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.symbol-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .symbol-title {
@@ -294,9 +367,18 @@ body {
 
 /* Objectives */
 .objectives-list {
-  background-color: #f0f9ff;
-  padding: 32px;
+  background-color: white;
+  padding: 24px;
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.objectives-list:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .objectives {
@@ -321,6 +403,14 @@ body {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.characteristic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .characteristic-title {
@@ -347,10 +437,18 @@ body {
 }
 
 .myth-truth-item {
-  background-color: #fef2f2;
-  border: 1px solid #fecaca;
+  background-color: white;
   padding: 24px;
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.myth-truth-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .myth-title {
@@ -380,10 +478,17 @@ body {
 
 .testimonial-card {
   background-color: white;
-  padding: 32px;
+  padding: 24px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  border-left: 4px solid #3b82f6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #f8fafc;
 }
 
 .testimonial-header {
